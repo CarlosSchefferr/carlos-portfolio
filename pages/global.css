@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amethysta:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lustria:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-lustria: Lustria;
+  --font-amethysta: Amethysta;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
+  --font-size-19xl: 38px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-deepskyblue: #1daddb;
+  --color-darkgray: #a1a1a1;
+  --color-gray-100: #040404;
+
+  /* Gaps */
+  --gap-sm: 14px;
+  --gap-mini: 15px;
+  --gap-smi: 13px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-8xs: 5px;
+  --padding-13xl: 32px;
+  --padding-44xl: 63px;
+  --padding-12xl: 31px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-2xs: 11px;
+  --padding-11xs: 2px;
+  --padding-12xs: 1px;
+  --padding-6xs: 7px;
+}
