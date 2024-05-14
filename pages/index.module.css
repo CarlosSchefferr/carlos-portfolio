@@ -622,6 +622,7 @@
 .b {
   display: inline-block;
   min-width: 127px;
+  width: 136px;
 }
 .dataRows,
 .specificVehicleFilter {
@@ -652,6 +653,7 @@
   white-space: nowrap;
   z-index: 1;
   color: #010101;
+  width: 200px;
 }
 .dataColumns,
 .dataRows1 {
@@ -703,6 +705,7 @@
   gap: 61px;
   flex-shrink: 0;
   max-width: 100%;
+ 
 }
 .frameDiv,
 .frameInner {
@@ -920,3 +923,4 @@
   height: auto;
   padding: 2%;
 }
+

@@ -7,13 +7,7 @@ const Fleetsummary: NextPage = () => {
       <img className={styles.fleetsummaryChild} alt="" src="/rectangle-1.svg" />
       <header className={styles.contactInfo}>
       <div id="Home" className={styles.carlin}><h1 className={styles.carlosdev}>Carlos.dev</h1></div>
-        <nav className={styles.userSettingsArea}>
-          <nav className={styles.serviceLinksContainer}>
-           <a id="active" href="#Home"><div className={styles.home}>{`Home`}</div></a>
-            <a id="active"  href="#About"><div className={styles.about}>{`About `}</div></a>
-             <a  href="#Contact"><div className={styles.contact}>{`Contact `}</div></a>
-          </nav>
-        </nav>
+        
       </header>
       <main className={styles.content}>
         <div className={styles.contentWrapper}>
@@ -33,10 +27,10 @@ const Fleetsummary: NextPage = () => {
                     <div className={styles.sidebarItems}>
                       <b className={styles.hiImCarlos}>
                         Hi. I’m Carlos Augusto. A Passionate about programming
-                        and technology. Currently living in Criciúma, Brazil
+                        and technology. Currently living in Criciúma, Brazil📍
                       </b>
                       <div className={styles.serviceLinks}>
-                        <div className={styles.div}>📍</div>
+                        <div className={styles.div}>ㅤ</div>
                       </div>
                     </div>
                   </div>
@@ -159,10 +153,10 @@ const Fleetsummary: NextPage = () => {
                         <div className={styles.hiImCarlosAugustoAPassParent}>
                           <b className={styles.hiImCarlos1}>
                             A Passionate about programming and technology.
-                            Currently living in Criciúma, Brazil
+                            Currently living in Criciúma, Brazil📍
                           </b>
                           <div className={styles.wrapper}>
-                            <div className={styles.div1}>📍</div>
+                            <div className={styles.div1}>ㅤ</div>
                           </div>
                         </div>
                       </div>
@@ -219,7 +213,7 @@ const Fleetsummary: NextPage = () => {
                         src="/icons8whatsapp-1@2x.png"
                       />
                       <div className={styles.specificVehicleFilter}>
-                        <b className={styles.b}>55 51 99004-1021</b>
+                        <b className={styles.b}>+55 51 99004-1021</b>
                       </div>
                     </div>
                     <div className={styles.dataRows1}>
@@ -247,7 +241,7 @@ const Fleetsummary: NextPage = () => {
                         src="/icons8logodiscord-1@2x.png"
                       />
                       <div className={styles.carlosm5727Wrapper}>
-                        <b className={styles.carlosm5727}>carlosm5727</b>
+                        <b className={styles.carlosm5727}>carloscheffer</b>
                       </div>
                     </div>
                   </div>
@@ -266,5 +260,7 @@ const Fleetsummary: NextPage = () => {
     </div>
   );
 };
+
+
 
 export default Fleetsummary;
