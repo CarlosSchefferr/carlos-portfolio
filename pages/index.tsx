@@ -26,8 +26,8 @@ const Fleetsummary: NextPage = () => {
                   <div className={styles.notificationCountArea}>
                     <div className={styles.sidebarItems}>
                       <b className={styles.hiImCarlos}>
-                        Hi. TESTE I’m Carlos Augusto. A Passionate about programming
-                        and technology. Currently living in Criciúma, Brazil📍
+                      Oi. Meu nome é Carlos Augusto. Um apaixonado por programação
+                      e Tecnologia. Atualmente morando em Criciúma, Brasil📍
                       </b>
                       <div className={styles.serviceLinks}>
                         <div className={styles.div}>ㅤ</div>
@@ -162,13 +162,13 @@ const Fleetsummary: NextPage = () => {
                       </div>
                     </div>
                     <div className={styles.hiImCarlos2}>
-                      Since I was little, I have always been connected with
-                      technology and the world of the internet. This has always
-                      been my biggest hobby. Nowadays, I am a young student,
-                      currently studying Software Engineering at SATC
-                      university. Passionate about programming and with certain
-                      skills in HTML, CSS, Javascript, Typescript, React, node
-                      JS, Python, and Figma design.
+                      Desde pequeno sempre estive conectado com
+                      tecnologia e o mundo da internet. Isso sempre
+                      tem sido meu maior hobby. Hoje em dia sou um jovem estudante,
+                      atualmente cursando Engenharia de Software na UNISATC. 
+                      Apaixonado por programação e com certas
+                      habilidades em HTML, CSS, Javascript, Typescript, React, 
+                      NodeJS , Python, Java e Figma.
                     </div>
                   </div>
                 </div>
