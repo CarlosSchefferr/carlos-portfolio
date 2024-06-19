@@ -795,7 +795,7 @@
 .fleetsummary {
   width: 100%;
   position: relative;
-  background-color: #fff;
+  background-color: linear-gradient(to right, #fff, blue);
   flex-direction: column;
   justify-content: flex-start;
   padding: 58px 65px var(--padding-8xs) 69px;
