@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
+import "./index.module.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

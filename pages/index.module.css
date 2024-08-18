@@ -365,6 +365,39 @@
   justify-content: flex-start;
   padding: var(--padding-12xs) 0 0;
 }
+
+.image11Icon {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.image11Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+
+.image14Icon {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.image14Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+
 .image8Icon {
   width: 33px;
   height: 33px;

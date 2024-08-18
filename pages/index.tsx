@@ -86,6 +86,27 @@ const Fleetsummary: NextPage = () => {
                     src="/image-4@2x.png"
                   />
                 </div>
+
+                <div className={styles.image11Wrapper}>
+                  <img
+                    className={styles.image11Icon}
+                    loading="lazy"
+                    alt=""
+                    src="/image-11@2x.png"
+                  />
+                </div>
+              
+              <div className={styles.image14Wrapper}>
+
+                <img
+                  className={styles.image14Icon}
+                  loading="lazy"
+                  alt=""
+                  src="/image-14@2x..png"
+                />
+              </div>
+
+
                 <img
                   className={styles.image5Icon}
                   loading="lazy"
@@ -152,8 +173,7 @@ const Fleetsummary: NextPage = () => {
                         </div>
                         <div className={styles.hiImCarlosAugustoAPassParent}>
                           <b className={styles.hiImCarlos1}>
-                            A Passionate about programming and technology.
-                            Currently living in Criciúma, Brazil📍
+                          Apaixonado por programação e tecnologia. Atualmente morando em Criciúma, Brasil📍
                           </b>
                           <div className={styles.wrapper}>
                             <div className={styles.div1}>ㅤ</div>
@@ -167,7 +187,7 @@ const Fleetsummary: NextPage = () => {
                       tem sido meu maior hobby. Hoje em dia sou um jovem estudante,
                       atualmente cursando Engenharia de Software na UNISATC. 
                       Apaixonado por programação e com certas
-                      habilidades em HTML, CSS, Javascript, Typescript, React, 
+                      habilidades em HTML, CSS, Laravel/PHP, MySQL, PostgreSQL, Bootstrap,  Javascript, Typescript, React, 
                       NodeJS , Python, Java e Figma.
                     </div>
                   </div>
