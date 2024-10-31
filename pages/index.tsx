@@ -64,15 +64,12 @@ const Fleetsummary: NextPage = () => {
                 <div className={styles.image4Wrapper}>
                   <img className={styles.image4Icon} alt="" src="/image-4@2x.png" />
                 </div>
-
                 <div className={styles.image11Wrapper}>
                   <img className={styles.image11Icon} loading="lazy" alt="" src="/image-11@2x.png" />
                 </div>
-
                 <div className={styles.image14Wrapper}>
                   <img className={styles.image14Icon} loading="lazy" alt="" src="/image-14@2x.png" />
                 </div>
-
                 <img className={styles.image5Icon} loading="lazy" alt="" src="/image-5@2x.png" />
                 <div className={styles.image6Wrapper}>
                   <img className={styles.image6Icon} loading="lazy" alt="" src="/image-6@2x.png" />
@@ -127,85 +124,57 @@ const Fleetsummary: NextPage = () => {
 
               {/* Seção de Experiências */}
               <div className={styles.experienceSection}>
-                <div className={styles.experienceWrapper}>
-                  <h2 className={styles.experienceTitle}>Experiências</h2>
-                  <ul className={styles.experienceList}>
-                    <li>
-                      <b>Estágio em Desenvolvimento Web</b> - Exon Sistemas (2024)
-                      <p>Desenvolvimento e manutenção de aplicações web usando PHP e Laravel.</p>
-                    </li>
-                    <li>
-                      <b>Freelancer</b> - Desenvolvimento de Loja Online (2023)
-                      <p>Criação de um e-commerce de cangas para um cliente, incluindo design e implementação.</p>
-                    </li>
-                    {/* Adicione mais experiências conforme necessário */}
-                  </ul>
+                <h2 className={styles.experienceTitle}>Experiências</h2>
+                <ul className={styles.experienceList}>
+                  <li className={styles.experienceItem}>
+                    <b>Estágio em Desenvolvimento Web</b> - Exon Sistemas (2024)
+                    <p>Desenvolvimento e manutenção de aplicações web usando PHP e Laravel.</p>
+                  </li>
+                  <li className={styles.experienceItem}>
+                    <b>Freelancer</b> - Desenvolvimento de Loja Online (2023)
+                    <p>Criação de um e-commerce de cangas para um cliente, incluindo design e implementação.</p>
+                  </li>
+                  {/* Adicione mais experiências conforme necessário */}
+                </ul>
+              </div>
+
+              {/* Seção de Projetos */}
+              <div className={styles.projectSection}>
+                <h2 className={styles.projectTitle}>Projetos</h2>
+                <div className={styles.projectList}>
+                  <div className={styles.projectCard}>
+                    <img className={styles.projectImage} src="/projeto1.jpg" alt="Projeto 1" />
+                    <div className={styles.projectInfo}>
+                      <h3 className={styles.projectName}>Projeto 1</h3>
+                      <p className={styles.projectDescription}>Descrição breve do projeto 1, incluindo suas funcionalidades e tecnologias usadas.</p>
+                      <div className={styles.projectTechIcons}>
+                        <img src="/html-icon.png" alt="HTML" />
+                        <img src="/css-icon.png" alt="CSS" />
+                        <img src="/js-icon.png" alt="JavaScript" />
+                      </div>
+                      <a href="https://github.com/seuusuario/projeto1" className={styles.projectLink}>
+                        Ver no GitHub
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles.projectCard}>
+                    <img className={styles.projectImage} src="/projeto2.jpg" alt="Projeto 2" />
+                    <div className={styles.projectInfo}>
+                      <h3 className={styles.projectName}>Projeto 2</h3>
+                      <p className={styles.projectDescription}>Descrição breve do projeto 2, incluindo suas funcionalidades e tecnologias usadas.</p>
+                      <div className={styles.projectTechIcons}>
+                        <img src="/laravel-icon.png" alt="Laravel" />
+                        <img src="/php-icon.png" alt="PHP" />
+                      </div>
+                      <a href="https://github.com/seuusuario/projeto2" className={styles.projectLink}>
+                        Ver no GitHub
+                      </a>
+                    </div>
+                  </div>
+                  {/* Adicione mais projetos conforme necessário */}
                 </div>
               </div>
 
-              <div className={styles.mainContentArea}>
-                <div className={styles.additionalDataHeading}>
-                  <div className={styles.portfolioVisitInnerWrapper}>
-                    <div className={styles.portfolioVisitInnermostWrap}>
-                      <img className={styles.capturaDeTela20240513232} alt="" src="/captura-de-tela-20240513-232255-1@2x.png" />
-                      <img className={styles.image13Icon} alt="" src="/image-13@2x.png" />
-                    </div>
-                  </div>
-                  <div className={styles.thankYouFor}>
-                    Thank you for your visit to my personal portfolio
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Rodapé */}
-          <div className={styles.reportOptions}>
-            <div className={styles.talkToMe}>{`TALK TO ME! `}</div>
-            <div className={styles.contactWays}>CONTACT WAYS</div>
-          </div>
-          <div className={styles.footer}>
-            <div className={styles.footerWrapper}>
-              <div className={styles.frameContainer}>
-                <div className={styles.frameDiv}>
-                  <div className={styles.dataRowsParent}>
-                    <div className={styles.dataRows}>
-                      <img
-                        className={styles.icons8Whatsapp1}
-                        loading="lazy"
-                        alt=""
-                        src="/icons8whatsapp-1@2x.png"
-                      />
-                      <div className={styles.specificVehicleFilter}>
-                        <b className={styles.b}>+55 51 99004-1021</b>
-                      </div>
-                    </div>
-                    <div className={styles.dataRows1}>
-                      <img
-                        className={styles.icons8NovaMensagem1}
-                        loading="lazy"
-                        alt=""
-                        src="/icons8novamensagem-1@2x.png"
-                      />
-                      <div className={styles.specificVehicleFilter}>
-                        <b className={styles.b}>carlosschefferr@hotmail.com</b>
-                      </div>
-                    </div>
-                    <div className={styles.dataRows2}>
-                      <img
-                        className={styles.icons8Location1}
-                        loading="lazy"
-                        alt=""
-                        src="/icons8location-1@2x.png"
-                      />
-                      <div className={styles.specificVehicleFilter}>
-                        <b className={styles.b}>Criciúma - SC</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.copyRight}>© 2024 Carlos Scheffer</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
