@@ -1,0 +1,45 @@
+/* components/ProjectCard.module.css */
+.projectCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .projectTitle {
+    font-size: 1.5rem;
+    margin: 8px 0;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .projectLink {
+    display: inline-block;
+    margin-top: 8px;
+    color: #0070f3;
+    text-decoration: none;
+    border: 1px solid #0070f3;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .projectLink:hover {
+    background-color: #0070f3;
+    color: white;
+  }
+  

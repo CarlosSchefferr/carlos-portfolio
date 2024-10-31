@@ -1,0 +1,12 @@
+/* components/ProjectsSection.module.css */
+.projectsSection {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
