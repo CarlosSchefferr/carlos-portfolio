@@ -95,6 +95,15 @@ const Fleetsummary: NextPage = () => {
                     src="/image-11@2x.png"
                   />
                 </div>
+
+                <div className={styles.image15Wrapper}>
+                  <img
+                    className={styles.image15Icon}
+                    loading="lazy"
+                    alt=""
+                    src="/image-15@2x.png"
+                  />
+                </div>
               
               <div className={styles.image14Wrapper}>
 
